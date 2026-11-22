@@ -1,0 +1,7 @@
+[2026-11-22T15:29:02Z] === AST ITERATION 1 START | repo=redis-rs/redis-rs sha=df42d67b ===
+[2026-11-22T15:29:02Z] [iter=1] PHASE START: ast repo=redis-rs/redis-rs sha=df42d67b
+[2026-11-22T15:29:02Z] [iter=1] Building AST aggregate chunks
+[2026-11-22T15:33:18Z] [iter=1] AST chunks built count=1 triples=2212306
+[2026-11-22T15:33:18Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/df42d67b6c85deeae747b3d000df13a9d656cc8e/.complete
+[2026-11-22T15:33:18Z] [iter=1] PHASE END: ast elapsed_s=256 elapsed_min=4.3
+[2026-11-22T15:33:18Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
