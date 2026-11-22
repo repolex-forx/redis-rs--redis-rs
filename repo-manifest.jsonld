@@ -6,10 +6,10 @@
   "gh:owner": "redis-rs",
   "repolex:trackedCommit": [
     {
-      "@id": "https://repolex.ai/r/redis-rs/redis-rs/commit/6a0c4c35606b6642eafc2df04e26f319331c6123",
-      "git:hexsha": "6a0c4c35606b6642eafc2df04e26f319331c6123",
+      "@id": "https://repolex.ai/r/redis-rs/redis-rs/commit/df42d67b6c85deeae747b3d000df13a9d656cc8e",
+      "git:hexsha": "df42d67b6c85deeae747b3d000df13a9d656cc8e",
       "repolex:parseStatus": "metadata_complete",
-      "git:tagName": "release-0.23.0-beta.1"
+      "git:tagName": "redis-test-1.0.4"
     },
     {
       "@id": "https://repolex.ai/r/redis-rs/redis-rs/commit/8b245ca6bd6bdf97f917ed868fd1e1ef4fbc6d5c",
@@ -672,12 +672,6 @@
       "git:tagName": "redis-1.2.1"
     },
     {
-      "@id": "https://repolex.ai/r/redis-rs/redis-rs/commit/df42d67b6c85deeae747b3d000df13a9d656cc8e",
-      "git:hexsha": "df42d67b6c85deeae747b3d000df13a9d656cc8e",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "redis-test-1.0.4"
-    },
-    {
       "@id": "https://repolex.ai/r/redis-rs/redis-rs/commit/0a7c73dc46b20630d471a79644f1433f5bd1e8d1",
       "git:hexsha": "0a7c73dc46b20630d471a79644f1433f5bd1e8d1",
       "repolex:parseStatus": "pending",
@@ -790,6 +784,12 @@
       "git:hexsha": "63dc913f34817f53d33f6653e633ae970c8b62b8",
       "repolex:parseStatus": "pending",
       "git:tagName": "redis-test-1.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/redis-rs/redis-rs/commit/6a0c4c35606b6642eafc2df04e26f319331c6123",
+      "git:hexsha": "6a0c4c35606b6642eafc2df04e26f319331c6123",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "release-0.23.0-beta.1"
     }
   ]
 }
