@@ -1,0 +1,39 @@
+[2026-11-23T04:14:53Z] === ENRICH ITERATION 2 START | repo=redis-rs/redis-rs sha=63dc913f ===
+[2026-11-23T04:14:53Z] [iter=2] PHASE START: enrich repo=redis-rs/redis-rs sha=63dc913f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/63dc913f-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/63dc913f34817f53d33f6653e633ae970c8b62b8.nq.gz
+[2026-11-23T04:14:53Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-23T04:15:08Z] [iter=2] AST store loaded triples=1953179 load_secs=14 mem_mb=891 MB
+[2026-11-23T04:15:08Z] [iter=2] Step 2: Finding LSP targets mem_mb=891 MB
+[2026-11-23T04:15:12Z] [iter=2] LSP targets found call_sites=19122 imports=412 extends=0 implements=293 secs=4
+[2026-11-23T04:15:15Z] [iter=2] Loaded checkpoint partial graph triples=49132
+[2026-11-23T04:15:15Z] [iter=2] Primed enclosing-def cache from persisted triples entries=331
+[2026-11-23T04:15:18Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=891 MB
+[2026-11-23T04:15:31Z] [iter=2] Position index built positions=132695 nodes_with_types=161129 secs=13 mem_mb=891 MB
+[2026-11-23T04:15:31Z] [iter=2] Step 3: Starting LSP resolution mem_mb=891 MB already_completed_types=[] already_completed_files=13
+[2026-11-23T04:15:31Z] [iter=2] Resolving target type target_type=call_site count=19122
+[2026-11-23T04:16:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=0 resolved=0 errors=0 current=redis/tests/test_async.rs
+[2026-11-23T04:18:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=1 resolved=293 errors=0 current=redis/tests/test_cache.rs
+[2026-11-23T04:19:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=4 resolved=454 errors=0 current=redis/tests/support/mock_cluster.rs
+[2026-11-23T04:23:00Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=7 resolved=987 errors=0 current=redis/src/subscription_tracker.rs
+[2026-11-23T04:25:10Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=10.3 files_done=12 resolved=1501 errors=0 current=redis/src/cluster_handling/client.rs
+[2026-11-23T04:27:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=16 resolved=1959 errors=0 current=redis/tests/test_acl.rs
+[2026-11-23T04:27:50Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=17 resolved=2169 errors=0 current=redis/src/cmd.rs
+[2026-11-23T04:29:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=14.5 files_done=18 resolved=2477 errors=0 current=redis/benches/bench_cache.rs
+[2026-11-23T04:33:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=18.2 files_done=21 resolved=3122 errors=0 current=redis-test/src/lib.rs
+[2026-11-23T04:35:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=20.3 files_done=22 resolved=3462 errors=0 current=redis/tests/test_script.rs
+[2026-11-23T04:35:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=20.9 files_done=24 resolved=3625 errors=0 current=redis-test/src/sentinel.rs
+[2026-11-23T04:36:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=21.4 files_done=25 resolved=3794 errors=0 current=redis-test/src/cluster.rs
+[2026-11-23T04:37:14Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=22.3 files_done=27 resolved=4051 errors=0 current=redis/src/caching/cache_manager.rs
+[2026-11-23T04:38:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=23.2 files_done=30 resolved=4200 errors=0 current=redis/benches/bench_cluster_async.rs
+[2026-11-23T04:38:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=23.7 files_done=32 resolved=4310 errors=0 current=redis/src/commands/acl.rs
+[2026-11-23T04:39:34Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=24.7 files_done=33 resolved=4506 errors=0 current=redis/src/aio/mod.rs
+[2026-11-23T04:40:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=25.3 files_done=38 resolved=4659 errors=0 current=redis/tests/support/cluster.rs
+[2026-11-23T04:40:55Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=26.0 files_done=40 resolved=4787 errors=0 current=redis/benches/bench_basic.rs
+[2026-11-23T04:42:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=27.5 files_done=41 resolved=4963 errors=0 current=redis/tests/test_auth.rs
+[2026-11-23T04:42:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=28.1 files_done=48 resolved=5044 errors=0 current=redis-test/src/server.rs
+[2026-11-23T04:43:27Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=28.6 files_done=51 resolved=5186 errors=0 current=redis/src/bb8.rs
+[2026-11-23T04:44:07Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=29.2 files_done=55 resolved=5279 errors=0 current=redis/src/commands/mod.rs
+[2026-11-23T04:44:50Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=29.9 files_done=56 resolved=5377 errors=0 current=redis/src/commands/geo.rs
+[2026-11-23T04:44:56Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=69 new_files_this_iter=56 mem_mb=891 MB
+[2026-11-23T04:44:56Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/63dc913f34817f53d33f6653e633ae970c8b62b8.nq.gz triples=98011
+[2026-11-23T04:44:57Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-11-23T04:44:57Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=1803 elapsed_min=30.0 files_completed=69
