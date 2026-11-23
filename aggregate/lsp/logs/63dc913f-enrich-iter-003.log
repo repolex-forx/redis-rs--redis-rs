@@ -1,0 +1,28 @@
+[2026-11-23T04:47:30Z] === ENRICH ITERATION 3 START | repo=redis-rs/redis-rs sha=63dc913f ===
+[2026-11-23T04:47:30Z] [iter=3] PHASE START: enrich repo=redis-rs/redis-rs sha=63dc913f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/63dc913f-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/63dc913f34817f53d33f6653e633ae970c8b62b8.nq.gz
+[2026-11-23T04:47:30Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T04:47:46Z] [iter=3] AST store loaded triples=1953179 load_secs=15 mem_mb=902 MB
+[2026-11-23T04:47:46Z] [iter=3] Step 2: Finding LSP targets mem_mb=902 MB
+[2026-11-23T04:47:50Z] [iter=3] LSP targets found call_sites=19122 imports=412 extends=0 implements=293 secs=4
+[2026-11-23T04:47:56Z] [iter=3] Loaded checkpoint partial graph triples=98011
+[2026-11-23T04:47:56Z] [iter=3] Primed enclosing-def cache from persisted triples entries=718
+[2026-11-23T04:47:58Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=902 MB
+[2026-11-23T04:48:12Z] [iter=3] Position index built positions=132695 nodes_with_types=161129 secs=13 mem_mb=902 MB
+[2026-11-23T04:48:12Z] [iter=3] Step 3: Starting LSP resolution mem_mb=902 MB already_completed_types=[] already_completed_files=69
+[2026-11-23T04:48:12Z] [iter=3] Resolving target type target_type=call_site count=19122
+[2026-11-23T04:48:52Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=0 resolved=0 errors=0 current=redis/src/commands/geo.rs
+[2026-11-23T04:49:27Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=1 resolved=45 errors=0 current=redis/src/aio/connection_manager.rs
+[2026-11-23T04:49:59Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=3 resolved=111 errors=0 current=redis/src/cluster_handling/sync_connection/pipeline.rs
+[2026-11-23T04:50:51Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=7 resolved=215 errors=0 current=redis/tests/test_credentials_provider_failures.rs
+[2026-11-23T04:51:26Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=15 resolved=360 errors=0 current=redis/tests/test_bignum.rs
+[2026-11-23T04:51:57Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=4.5 files_done=20 resolved=444 errors=0 current=redis/src/errors/server_error.rs
+[2026-11-23T04:52:14Z] [iter=3] Target type resolved target_type=call_site resolved=481 errors=0 secs=243 mem_mb=902 MB
+[2026-11-23T04:52:14Z] [iter=3] Resolving target type target_type=import_statement count=412
+[2026-11-23T04:52:22Z] [iter=3] Target type resolved target_type=import_statement resolved=60 errors=0 secs=7 mem_mb=902 MB
+[2026-11-23T04:52:22Z] [iter=3] Resolving target type target_type=implements_clause count=293
+[2026-11-23T04:52:28Z] [iter=3] HEARTBEAT target_type=implements_clause elapsed_min=5.0 files_done=0 resolved=0 errors=0 current=redis/src/aio/runtime.rs
+[2026-11-23T04:52:29Z] [iter=3] Target type resolved target_type=implements_clause resolved=28 errors=0 secs=7 mem_mb=902 MB
+[2026-11-23T05:40:27Z] [iter=3] Step 5: Writing final enrichment file triples=145077
+[2026-11-23T05:40:29Z] [iter=3] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/63dc913f34817f53d33f6653e633ae970c8b62b8.nq.gz size_kb=3089
+[2026-11-23T05:40:29Z] [iter=3] Checkpoint cleared (enrichment complete)
+[2026-11-23T05:40:29Z] [iter=3] PHASE END: enrich elapsed_s=3179 elapsed_min=53.0 total_triples=145077

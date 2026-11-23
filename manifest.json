@@ -755,6 +755,343 @@
       ],
       "ast": [
         "aggregate/ast/63dc913f34817f53d33f6653e633ae970c8b62b8/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/63dc913f34817f53d33f6653e633ae970c8b62b8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "alloc/src/vec/into_iter.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/result.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/option.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/macros/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/vec/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/string.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "assert_matches",
+          "ecosystem": "CARGO",
+          "version": "1.5.0",
+          "githubOrg": "murarth",
+          "githubRepo": "assert_matches",
+          "githubUrl": "https://github.com/murarth/assert_matches",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/assert_matches-1.5.0/src/lib.rs"
+        },
+        {
+          "packageName": "core/src/time.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/sync.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "futures-util",
+          "ecosystem": "CARGO",
+          "version": "0.3.31",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "1e052816b09890925cfdfcbe8d390cdaae5e4c38",
+          "githubTag": "0.3.31",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-util-0.3.31/src/sink/mod.rs"
+        },
+        {
+          "packageName": "futures-core",
+          "ecosystem": "CARGO",
+          "version": "0.3.31",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "1e052816b09890925cfdfcbe8d390cdaae5e4c38",
+          "githubTag": "0.3.31",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-core-0.3.31/src/task/poll.rs"
+        },
+        {
+          "packageName": "tokio-util",
+          "ecosystem": "CARGO",
+          "version": "0.7.17",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-util-0.7.17/src/codec/decoder.rs"
+        },
+        {
+          "packageName": "alloc/src/boxed.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/task/poll.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "arcstr",
+          "ecosystem": "CARGO",
+          "version": "1.2.0",
+          "githubOrg": "thomcc",
+          "githubRepo": "arcstr",
+          "githubCommit": "faa7692b0d6662bb177b3aefa80a6a13f897554d",
+          "githubTag": "v1.2.0",
+          "githubUrl": "https://github.com/thomcc/arcstr",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arcstr-1.2.0/src/arc_str.rs"
+        },
+        {
+          "packageName": "alloc/src/macros.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/fmt/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/collections/hash/set.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/slice/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/iter/traits/iterator.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.49.0",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "e3b89bbefa7564e2eba2fb9f849ef7bf87d60fad",
+          "githubTag": "tokio-1.49.0",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.49.0/src/time/sleep.rs"
+        },
+        {
+          "packageName": "std/src/env.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "env_logger",
+          "ecosystem": "CARGO",
+          "version": "0.11.8",
+          "githubOrg": "rust-cli",
+          "githubRepo": "env_logger",
+          "githubCommit": "f0443b26fef10f5f2ec6561e5ed670f66107836a",
+          "githubTag": "v0.11.8",
+          "githubUrl": "https://github.com/rust-cli/env_logger",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/env_logger-0.11.8/src/logger.rs"
+        },
+        {
+          "packageName": "std/src/macros.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.101",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "d3188ea889e55be0433326695b2773c717b39bb9",
+          "githubTag": "1.0.101",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.101/src/lib.rs"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "2.0.114",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "211e0dff48b030dbd15e17cb7efda8c9067a26cc",
+          "githubTag": "2.0.114",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.114/src/punctuated.rs"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.44",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "ad9fb4019efc3f34e5d3b9be416199937f7a8ee3",
+          "githubTag": "1.0.44",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.44/src/lib.rs"
+        },
+        {
+          "packageName": "std/src/fs.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/process.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "socket2",
+          "ecosystem": "CARGO",
+          "version": "0.6.2",
+          "githubOrg": "rust-lang",
+          "githubRepo": "socket2",
+          "githubCommit": "9a30f4f657370e9e1aede3351ab2bd33eedb9c95",
+          "githubTag": "v0.6.2",
+          "githubUrl": "https://github.com/rust-lang/socket2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.2/src/sys/unix.rs"
+        },
+        {
+          "packageName": "std/src/net/tcp.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/mem/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/io/error.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "cfg-if",
+          "ecosystem": "CARGO",
+          "version": "1.0.4",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cfg-if",
+          "githubCommit": "3510ca6abea34cbbc702509a4e50ea9709925eda",
+          "githubTag": "v1.0.4",
+          "githubUrl": "https://github.com/rust-lang/cfg-if",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-1.0.4/src/lib.rs"
+        },
+        {
+          "packageName": "std/src/time.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/clone.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/lib.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "futures",
+          "ecosystem": "CARGO",
+          "version": "0.3.31",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "1e052816b09890925cfdfcbe8d390cdaae5e4c38",
+          "githubTag": "0.3.31",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-0.3.31/src/lib.rs"
+        },
+        {
+          "packageName": "proc_macro/src/lib.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        }
       ]
     }
   ],
