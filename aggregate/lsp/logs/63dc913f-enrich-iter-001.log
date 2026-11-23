@@ -1,0 +1,20 @@
+[2026-11-23T03:42:45Z] === ENRICH ITERATION 1 START | repo=redis-rs/redis-rs sha=63dc913f ===
+[2026-11-23T03:42:45Z] [iter=1] PHASE START: enrich repo=redis-rs/redis-rs sha=63dc913f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/63dc913f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/63dc913f34817f53d33f6653e633ae970c8b62b8.nq.gz
+[2026-11-23T03:42:45Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T03:43:02Z] [iter=1] AST store loaded triples=1953179 load_secs=16 mem_mb=890 MB
+[2026-11-23T03:43:02Z] [iter=1] Step 2: Finding LSP targets mem_mb=890 MB
+[2026-11-23T03:43:06Z] [iter=1] LSP targets found call_sites=19122 imports=412 extends=0 implements=293 secs=4
+[2026-11-23T03:43:09Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=890 MB
+[2026-11-23T03:43:21Z] [iter=1] Position index built positions=132695 nodes_with_types=161129 secs=12 mem_mb=890 MB
+[2026-11-23T03:43:21Z] [iter=1] Step 3: Starting LSP resolution mem_mb=890 MB already_completed_types=[] already_completed_files=0
+[2026-11-23T03:43:21Z] [iter=1] Resolving target type target_type=call_site count=19122
+[2026-11-23T03:43:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=0 resolved=0 errors=0 current=redis/tests/test_module_json.rs
+[2026-11-23T03:50:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=3 resolved=1235 errors=0 current=redis/src/parser.rs
+[2026-11-23T03:51:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.7 files_done=4 resolved=1411 errors=0 current=redis/src/cluster_handling/mod.rs
+[2026-11-23T03:51:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.2 files_done=8 resolved=1900 errors=0 current=redis/src/caching/sharded_lru.rs
+[2026-11-23T04:07:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.7 files_done=10 resolved=4232 errors=0 current=redis/src/entra_id.rs
+[2026-11-23T04:08:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.6 files_done=12 resolved=4427 errors=0 current=redis/tests/test_cluster.rs
+[2026-11-23T04:12:51Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=13 new_files_this_iter=13 mem_mb=890 MB
+[2026-11-23T04:12:51Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/63dc913f34817f53d33f6653e633ae970c8b62b8.nq.gz triples=49132
+[2026-11-23T04:12:51Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-23T04:12:51Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1805 elapsed_min=30.1 files_completed=13

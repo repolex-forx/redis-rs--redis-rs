@@ -1,0 +1,39 @@
+{
+  "commit_sha": "63dc913f34817f53d33f6653e633ae970c8b62b8",
+  "completed_files": [
+    "redis/src/aio/multiplexed_connection.rs",
+    "redis/src/caching/sharded_lru.rs",
+    "redis/src/cluster_handling/async_connection/mod.rs",
+    "redis/src/cluster_handling/mod.rs",
+    "redis/src/cluster_handling/routing.rs",
+    "redis/src/entra_id.rs",
+    "redis/src/parser.rs",
+    "redis/tests/test_basic.rs",
+    "redis/tests/test_cluster.rs",
+    "redis/tests/test_cluster_async.rs",
+    "redis/tests/test_module_json.rs",
+    "redis/tests/test_sentinel.rs",
+    "redis/tests/test_streams.rs"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/redis-rs/redis-rs/lsp/63dc913f34817f53d33f6653e633ae970c8b62b8",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/63dc913f34817f53d33f6653e633ae970c8b62b8.nq.gz",
+    "call_sites": 19122,
+    "import_statements": 412,
+    "call_targets_resolved": 5256,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 0,
+    "implements_clauses": 293,
+    "import_modules_denormalized": 795,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 0,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1805
+}
